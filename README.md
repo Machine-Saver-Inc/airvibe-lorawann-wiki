@@ -1,4 +1,23 @@
 # AirVibe Integrators Wiki
+
+<!-- machine-saver-scope:start -->
+## Scope
+
+AirVibe integrator documentation and the React documentation application, including published payload examples and interactive integration helpers.
+
+**Owner:** Machine-Saver-Inc. **Development area:** Applications and documentation.
+
+## Ownership boundaries
+
+Documentation helpers are not the authoritative embedded firmware or fleet control plane. This repository is public; internal notes and unpublished customer material require a separate approved home.
+
+## Development tracking
+
+Track work in this repository's issues and pull requests. Cross-repository work is coordinated through the [Machine Saver development Projects](https://github.com/orgs/Machine-Saver-Inc/projects).
+
+Follow this repository's contribution instructions and preserve links to related product issues. Scope describes responsibility; release and deployment readiness require the repository's own evidence.
+<!-- machine-saver-scope:end -->
+
 An internal documentation platform for the Machine Saver team, built around the AirVibe LoRaWAN Condition Monitoring Sensor.
 
 ## 🚀 Overview
