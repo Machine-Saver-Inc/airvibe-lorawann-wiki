@@ -1,0 +1,15 @@
+{
+  "name": "AirVibe LoRaWAN vibration and temperature sensor",
+  "status": "Draft for technical review",
+  "short_description": "AirVibe is a LoRaWAN condition monitoring sensor that transmits three-axis RMS acceleration, RMS velocity and temperature data, with configurable time waveform transfer.",
+  "features": [
+    {"text": "Vibration Sensor Module (VSM) and Transmitter and Power Module (TPM) architecture.", "source_ids": ["quickstart-plan"]},
+    {"text": "LoRaWAN Class A operation, with Class C used during firmware upgrades.", "source_ids": ["intro", "process-ota"]},
+    {"text": "Configurable overall, waveform, or combined reporting modes.", "source_ids": ["config-modes"]},
+    {"text": "Temperature, acceleration and velocity alarm configuration through downlinks.", "source_ids": ["downlink-alarms"]},
+    {"text": "Segmented waveform transfers require application-side assembly, acknowledgments and recovery of missing segments.", "source_ids": ["process-twf"]}
+  ],
+  "short_description_source_ids": ["intro", "config-modes"],
+  "documentation_url": "https://airvibe-wiki.machinesaver.com/",
+  "commercial_fields": "Managed separately after owner validation; this package contains no price, inventory, tax, shipping or ordering-code assertions."
+}
